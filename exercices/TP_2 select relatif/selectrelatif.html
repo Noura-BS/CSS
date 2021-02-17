@@ -9,21 +9,21 @@
     <style>
         
 /*GLOBAL*/
-        body + div{
+        body div {
             color: #0000;
             background-color: lightgrey;
         }
 
 /*TEXTE*/
-        p {
+        #conteneur p {
             color : red;
         }
 
-        #conteneur p {
+        #conteneur > p {
             font-weight: bold;
         }
 
-        #conteneur h2+p {
+        #conteneur h2 + p {
             color : green;
         }
 
@@ -37,10 +37,10 @@
 
 /*DIV*/
         body > div {
-            color : yellow;
+            background-color : yellow;
         }
-        div + h1 {
-            border-color: green;
+        h1 + div {
+            border: 1px solid green;
         }
 
     </style>

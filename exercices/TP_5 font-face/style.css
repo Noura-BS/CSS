@@ -1,0 +1,10 @@
+/* FONT FACE*/
+
+@font-face {
+    font-family: "Ma Super Police";
+    src: url("./font/MaSuperPolice.ttf") format("truetype");
+}
+
+h1 {
+    font-family: "Ma Super Police",cursive;
+}

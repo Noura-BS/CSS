@@ -1,0 +1,33 @@
+/* BOX SIZING*/
+
+div {
+    width: 500px;
+    background-color: blueviolet;
+    
+}
+
+h2 {
+    width: 400px;
+    background-color: crimson;
+    border: 2px solid black;
+}
+
+/* PARAGRAPHES*/
+
+.para1 {
+    width: 500px;
+    border: 3px dashed green;
+    background-color:lightseagreen;
+    padding: 15px;
+}
+
+.para2 {
+    width: 500px;
+    border: 2px solid darkblue;
+    background-color: coral;
+    margin: 15px;
+}
+
+.box {
+    box-sizing: border-box;
+}

@@ -1,0 +1,23 @@
+/* INLINE*/
+
+b {
+    border: 3px solid red;
+}
+
+/*SPAN COLOR PINK*/
+
+span {
+    background-color: pink;
+}
+
+/*BLOCK*/
+
+/*P AVEC BORDURE VERTE*/
+
+p{
+    border: 2px solid green;
+}
+
+div {
+    background-color: lightgrey;
+}

@@ -1,0 +1,45 @@
+/*PSEUDO CLASS*/
+
+a {
+    color: pink;
+}
+
+
+a:hover {
+    font-size: 1.5rem;
+    color: yellow;
+}
+
+a:visited {
+    color: pink;
+}
+
+p:hover {
+    background-color: red;
+}
+
+/*PSEUDO ELEMENT*/
+
+p::first-letter {
+    font-size: 1.8rem;
+}
+
+::selection {
+    background-color: yellow;
+}
+
+p:hover {
+    background-color: red;
+}
+
+/* IMAGE*/
+
+h1::before {
+    content:"";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    background-image: url("https://bitsofco.de/content/images/2017/03/icon_256.png");
+    background-size: cover;
+}

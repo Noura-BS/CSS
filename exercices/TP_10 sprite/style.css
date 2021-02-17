@@ -1,0 +1,38 @@
+/*SPRITE*/
+
+.facebook, .twitter, .youtube, .linkedin {
+    
+    width: 84px;
+    height: 84px;
+    display: block;
+    position: absolute;
+}
+
+.facebook {
+    background-image: url('./social-sprite.png');
+    background-position: 0px -170px;
+}
+.twitter {
+    background-image: url('./social-sprite.png');
+    background-position: -672px -170px;
+    left: 200px;
+}
+
+.youtube {
+    background-image: url('./social-sprite.png');
+    background-position: -840px -170px;
+    left: 400px;
+}
+
+.linkedin {
+    background-image: url('./social-sprite.png');
+    background-position: -336px -170px;
+    left: 600px;
+}
+
+/*SURVOL COULEUR*/
+
+.social a:hover {
+    background-image: url('./social-sprite.png');
+    background-color: red;
+}

@@ -1,0 +1,9 @@
+/*mMODELE DE BOITE*/
+
+div {
+    width: 500px;
+    background-color: red;
+    border: 15px dash black;
+    margin: 50px;
+
+}
